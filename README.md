@@ -1,12 +1,18 @@
 # Hapi Hoster
 
-## Use this Hapi application to host your SPA.
+## Use this Hapi application to host your React SPA
 
-### Put your client files in ./client/dist
+## Installation and running
 
-### Make sure your running Nodejs v12.16.1 or higher.
+### Install Nodejs (v12.16.1 or higher)
 
-### To start the server:
+### Run npm install to install the dependencies
+
+### Build your React application then copy your React client files into ./client/dist
+
+### To start the Nodejs server:
 ```
 node server.js
 ```
+
+### Control-C will shutdown the server
