@@ -4,6 +4,9 @@ const Hapi = require('@hapi/hapi');
 const Inert = require('@hapi/inert');
 const Path = require('path');
 
+console.log(`NODE_ENV: ${process.env.NODE_ENV}`);
+
+
 const server = Hapi.server({
   port: process.env.port || 1234, //default port 1337 is for running on Azure.
   host: '0.0.0.0',
