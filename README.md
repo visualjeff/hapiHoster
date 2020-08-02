@@ -1,5 +1,7 @@
 # Hapi Hoster
 
+![Node.js CI](https://github.com/visualjeff/hapiHoster/workflows/Node.js%20CI/badge.svg)
+
 ## Use this Hapi application to host your Parcel/React SPA
 
 ### Installation and running
